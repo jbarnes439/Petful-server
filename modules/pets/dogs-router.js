@@ -12,7 +12,7 @@ dogRouter
         // Return all cats currently up for adoption.
         return res
             .status(200)
-            .json(dogService.get());
+            .json(dogService.show());
     })
 
     .delete('/', json, (req, res) => {

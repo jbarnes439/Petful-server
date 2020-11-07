@@ -12,7 +12,7 @@ catRouter
         // Return all cats currently up for adoption.
         return res
             .status(200)
-            .json(catService.get());
+            .json(catService.show());
     })
 
     .delete('/', json, (req, res) => {

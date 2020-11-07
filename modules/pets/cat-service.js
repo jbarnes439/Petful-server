@@ -21,8 +21,12 @@ module.exports = {
     return pets.cats.all();
   },
 
+  show() {
+      return pets.cats.show();
+  },
+
   dequeue() {
     // Remove a pet from the queue.
     pets.cats.dequeue();
-  }
+  },
 }
