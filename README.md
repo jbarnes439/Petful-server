@@ -46,6 +46,8 @@ Returns all items in the queue of people.
     "Jim Lahey"
     ]
 
+## Technologies:
+  Create-react-app was used to create the front end. The back end utilizes a RESTful API pattern created with express and Node.js.
 
 
 
