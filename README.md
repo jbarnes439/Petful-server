@@ -6,6 +6,7 @@ https://github.com/jbarnes439/Petful-Client.git
 ## Endpoints
 ### GET /api/cats
 Returns the cat located at the top of the cat queue.
+
     // res.body
     {
         "age": 2,
@@ -16,10 +17,12 @@ Returns the cat located at the top of the cat queue.
         "name": "Steve French",
         "story": "Thrown on the street"
     }
+
 ### DELETE /api/cats
 Removes the cat at the top of the cat queue.
 ### GET /api/dogs
 Gets the dog at the top of the dog queue.
+
     // res.body
     {
         "age": 3,
@@ -35,6 +38,7 @@ Gets the dog at the top of the dog queue.
 Removes the dog at the top of the dog queue.
 ### GET /api/people
 Returns all items in the queue of people.
+
     // res.body
     [
     "Randy Lahey",
