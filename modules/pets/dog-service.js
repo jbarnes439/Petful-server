@@ -28,5 +28,7 @@ module.exports = {
   dequeue() {
     // Remove a pet from the queue.
     pets.dogs.dequeue();
+    // add another dog to the end of the queue
+    store.dogs.forEach(dog => pets.dogs.enqueue(dog))
   }
 }
